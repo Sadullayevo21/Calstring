@@ -7,9 +7,8 @@ char amal = '+';
 int i = 0;
 while (i < input.Length)
 {
-                char belgi = input[i];
+    char belgi = input[i];
 
-                
                 if (belgi >= '0' && belgi <= '9')
                 {
                     
@@ -20,11 +19,11 @@ while (i < input.Length)
                 if (belgi == '+' || belgi == '-' || i == input.Length - 1)
                 {
                     
-                    if (amal == '+')
+                if (amal == '+')
                     {
                         natija = natija + hozirgiSon;
                     }
-                    else if (amal == '-')
+                else if (amal == '-')
                     {
                         natija = natija - hozirgiSon;
                     }
