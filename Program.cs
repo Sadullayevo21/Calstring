@@ -36,3 +36,5 @@ while (i < input.Length)
 
                 i++;
 }
+
+Console.WriteLine("Natija: " + natija);
