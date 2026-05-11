@@ -36,8 +36,6 @@ do
 
 Console.WriteLine("Dastur tugadi. Xayr!");
 
-// --- METHODLAR BO'LIMI (Endi hammasi static) ---
-
 static void RunCalculator()
 {
     Console.Write("Ifodani kiriting (masalan, 1+5-2): ");
