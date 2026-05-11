@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 
 Console.WriteLine("Assalomu alaykum! CalString dasturiga xush kelibsiz!");
 
@@ -36,7 +36,9 @@ do
 
 Console.WriteLine("Dastur tugadi. Xayr!");
 
-void RunCalculator()
+// --- METHODLAR BO'LIMI (Endi hammasi static) ---
+
+static void RunCalculator()
 {
     Console.Write("Ifodani kiriting (masalan, 1+5-2): ");
     string input = Console.ReadLine();
@@ -65,7 +67,7 @@ void RunCalculator()
     Console.WriteLine("Natija: " + natija);
 }
 
-void RunGetMax()
+static void RunGetMax()
 {
     Console.Write("1-sonni kiriting: ");
     int s1 = Convert.ToInt32(Console.ReadLine()); 
@@ -78,7 +80,7 @@ void RunGetMax()
     Console.WriteLine("Eng katta son: " + max);
 }
 
-int GetMax(int a, int b, int c)
+static int GetMax(int a, int b, int c)
 {
     int max = a;
     if (b > max) max = b;
@@ -86,28 +88,28 @@ int GetMax(int a, int b, int c)
     return max;
 }
 
-void RunFactorial()
+static void RunFactorial()
 {
     Console.Write("Sonni kiriting: ");
     int n = Convert.ToInt32(Console.ReadLine()); 
     Console.WriteLine(n + "! = " + Factorial(n));
 }
 
-long Factorial(int n)
+static long Factorial(int n)
 {
     long natija = 1;
     for (int i = 1; i <= n; i++) natija *= i;
     return natija;
 }
 
-void RunSumToN()
+static void RunSumToN()
 {
     Console.Write("N ni kiriting: ");
     int n = Convert.ToInt32(Console.ReadLine()); 
     Console.WriteLine("1 dan " + n + " gacha yig'indi: " + SumToN(n));
 }
 
-int SumToN(int n)
+static int SumToN(int n)
 {
     int yigindi = 0;
     for (int i = 1; i <= n; i++) yigindi += i;
