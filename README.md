@@ -9,7 +9,7 @@ Ushbu loyiha dasturlash asoslarini, xususan, satrlar (strings) bilan ishlash va 
 Dasturning asosiy vazifasi — murakkab ko'ringan satrli ifodani bo'laklarga bo'lib, undagi sonlarni va amallarni (+, -) ajratib olish va yakuniy natijani chiqarishdir.
 
 ## Ishlash jarayoni
-![Gif](gifs/gif.gif)
+![Gif](gifs/calstring.gif)
 
 
 ## 💻 Foydalanilgan dasturlar va texnologiyalar

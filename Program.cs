@@ -1,6 +1,6 @@
 ﻿using System;
 
-Console.WriteLine("Assalomu alaykum! CalString dasturiga xush kelibsiz!");
+Console.WriteLine("Assalomu alaykum! CalString dasturiga xush kelibsiz");
 
 string tanlov;
 
